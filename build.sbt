@@ -20,8 +20,8 @@ inThisBuild(
 )
 
 lazy val commonSettings = Seq(
-  scalaVersion := "3.1.2",
-  crossScalaVersions := Seq("2.13.8", "3.1.2"),
+  scalaVersion := "3.2.2",
+  crossScalaVersions := Seq("2.13.10", "3.2.2"),
 
   libraryDependencies += ("org.scalameta"  %% "scalafmt-dynamic" % "3.5.8").cross(CrossVersion.for3Use2_13),
   libraryDependencies ++= {
