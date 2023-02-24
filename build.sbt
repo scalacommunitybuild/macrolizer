@@ -42,7 +42,7 @@ lazy val commonSettings = Seq(
           "-feature",
           "-unchecked",
           "-language:_",
-          "-target:jvm-1.8",
+          "-release:8",
           "-Xlint:_,-missing-interpolator",
           "-Ywarn-dead-code",
           "-Ywarn-numeric-widen",
